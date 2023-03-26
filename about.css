@@ -1,0 +1,75 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .about {
+    margin-bottom: 2rem;
+  }
+  
+  .location {
+    margin-top: 2rem;
+  }
+  
+  h2, h3 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    nav {
+      margin-top: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+  
