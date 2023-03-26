@@ -5,7 +5,7 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #ce1c1c;
+    background-color: #a99eef;
   }
   
   .login-form h1 {
@@ -15,7 +15,8 @@
   
   .form-group {
     margin-bottom: 20px;
-    background-color: #7474e1;
+    color: #fff;
+    background-color: #111112;
   }
   
   .form-group label {
