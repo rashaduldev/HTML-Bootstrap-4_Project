@@ -9,6 +9,7 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #58a39c;
   }
   
   header {
@@ -51,7 +52,10 @@
   h2, h3 {
     margin-bottom: 1rem;
   }
-  
+  .footer{
+    text-align: center;
+    align-items: center;
+  }
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
     header {
