@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System-- Registation</title>
+    <link rel="stylesheet" href="form.css">
+   
+</head>
+<body>
+    <style>
+        #address_input{
+            width: 30%;
+        }
+       #imagepart{
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+
+       }
+       #imagepart input{
+        width: 50%;
+       }
+       #role_part{
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+       }
+    </style>
+     <header>
+        <h1>Company Name</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <hr>
+    <form action="../Online-voting-system/api/register.php" method="POST" class="body_form">
+        <h3>Registation</h3>
+        <input type="text" name="name" placeholder="Enter Name">
+        <input type="number" name="mobile" placeholder="Enter Mobile Number"><br><br>
+        <input type="password" name="password" placeholder="password">
+        <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+        <input id="address_input" type="text" name="address" placeholder="Address"><br><br>
+       <center>
+        <div id="imagepart">
+            <label>Upload images:</label>
+            <input type="file" name="photo"><br><br>
+        </div>
+    </center>
+    <center><br>
+        <div id="role_part">
+            <label>Select Role:</label>
+        <select name="role">    
+            <option value="1">User</option>
+            <option value="2">Admin</option>
+        </select>
+        </div>
+    </center><br>
+        <button style="color: black;">Register</button><br><br>
+       Alredy User? <a href="form.html">Login Here</a>
+    </form>
+</body>
+</html>

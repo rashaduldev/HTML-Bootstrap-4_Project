@@ -1,53 +1,52 @@
-body{
-  background-color: #63e365;
+*{
+  text-decoration: none;
 }
-.login-form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #a99eef;
-  }
-  
-  .login-form h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-    color: #fff;
-    background-color: #6b6bf3;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input[type="text"],
-  .form-group input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .login-form {
-      padding: 10px;
-    }
-  }
-  
+body{
+  text-align: center;
+  font-family: cursive;
+  background-color: #a6eb6e;
+}
+header {
+  background-color: #a6eb6e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.0rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li:not(:last-child) {
+  margin-right: 1rem;
+}
+input{
+  width: 15%;
+  height: 35px;
+  border-radius: 0.5rem;
+}
+#role_part{
+  width: 15%;
+  height: 35px;
+  border-radius: 0.5rem;
+}
+.main_part{
+  background-color: #a6eb6e;
+}
+button{
+  color: rgb(20, 20, 20);
+  background-color: #8cdbe6;
+  border-radius: 1rem;
+  width: 10%;
+  height: 30px;
+  cursor: pointer;
+}
+button:hover{
+  color: rgb(240, 239, 239);
+  background-color: #137e81;
+  font-style: italic;
+  font-size: 16px;
+}
