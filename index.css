@@ -15,6 +15,9 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 }
 /* common css end */
 /* header part start */
+#nav_item_class a{
+    text-decoration: none;
+}
 .header_cont{
     background: rgb(11, 128, 0);
     color: white;
@@ -33,7 +36,14 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
         background-color: #e8e6e6;
         font-size: large;
     }
-
+#login_id{
+    border-radius: 1rem;
+    background-color:  rgb(53, 29, 189);
+}
+#login_id a{
+    text-decoration: none;
+    color: #e8e6e6;
+}
 
     /* MAin part start */
 .mark{
