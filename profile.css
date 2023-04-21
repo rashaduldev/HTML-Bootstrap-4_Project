@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.profile {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.profile img {
+	max-width: 200px;
+	height: auto;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.bio {
+	margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 10px;
+	}
+	
+	.header {
+		margin-bottom: 20px;
+	}
+	
+	.profile img {
+		max-width: 150px;
+		margin-bottom: 5px;
+	}
+}
