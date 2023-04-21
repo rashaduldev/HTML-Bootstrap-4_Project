@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
-    header {
+    .first_container {
       flex-direction: column;
     }
   
