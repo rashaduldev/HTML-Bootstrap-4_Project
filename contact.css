@@ -80,4 +80,7 @@ form input[type="submit"]:hover {
 	.container {
 		padding: 30px 10px;
 	}
-}
+	header{
+		flex-direction: column	;
+	}
+	}

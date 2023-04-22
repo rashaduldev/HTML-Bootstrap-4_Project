@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-image: url();
 }
 ul,ol{
     list-style: none;
@@ -53,7 +54,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 }
      /* MAin part end */
 #main_img{
-    background-image: url(img/DSC_2249.JPG);
+    background-image: url(img/login.jpg);
     background-size: cover;
     height: 100vh;   
 }
