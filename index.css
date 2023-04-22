@@ -82,28 +82,11 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 768px) {
-    .first_container {
-      flex-direction: column;
+    @media screen and (max-width: 768px) {
+       .first_container {
+          flex-direction: column;
+        }
     }
-  
-    nav {
-      margin-top: 1rem;
-    }
-  
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    nav li:not(:last-child) {
-      margin-right: 0;
-      margin-bottom: 1rem;
-    }
-  }
-  
-
-
 
 
 
