@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
     text-decoration: none;
 }
 .header_cont{
+    background: rgb(11, 128, 0);
     color: white;
 }
 .header_right p{
@@ -52,6 +53,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 }
      /* MAin part end */
 #main_img{
+    background-image: url(img/bc.jpg);
     background-size: cover;
     height: 100vh;   
 }
